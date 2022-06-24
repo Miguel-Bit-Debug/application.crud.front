@@ -1,0 +1,20 @@
+.texto {
+  color: #0f002578;
+  font-size: 1em;
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa a {
+  text-decoration: none;
+}
+
+.caixa a:hover {
+  background-color: #f00;
+  color: #fff;
+}
