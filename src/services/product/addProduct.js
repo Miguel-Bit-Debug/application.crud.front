@@ -1,10 +1,9 @@
 import axios from 'axios'
 
-function AddProduct() {
-    axios.get('https://pokeapi.co/api/v2/pokemon/pikachu')
-        .then((res) => {
-            //
-        }).catch((err) => {
+function AddProduct(product) {
+    axios.post('http://localhost:5000/', product)
+        .then()
+        .catch((err) => {
             console.log(err)
         })
 }
